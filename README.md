@@ -58,4 +58,17 @@ The main research question is:
 
 ---
 
-## Repository Structure
+## Tools & Technologies
+
+- Python (pandas, numpy)
+- statsmodels (OLS)
+- linearmodels (IV / 2SLS)
+- matplotlib (visualization)
+
+---
+
+## Conclusion
+
+This project confirms the original findings of Card (1995) that education has a positive causal effect on wages. 
+
+The extension further demonstrates that these returns are heterogeneous across individuals, highlighting the importance of moving beyond average treatment effects in empirical economic analysis.
