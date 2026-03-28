@@ -72,3 +72,32 @@ The main research question is:
 This project confirms the original findings of Card (1995) that education has a positive causal effect on wages. 
 
 The extension further demonstrates that these returns are heterogeneous across individuals, highlighting the importance of moving beyond average treatment effects in empirical economic analysis.
+# Executive Memo: The Causal Impact of Education on Wages
+
+## Bottom Line Up Front (BLUF)
+
+Education has a significant causal impact on wages: each additional year of schooling increases earnings more than what standard regression estimates suggest. Moreover, this return is not uniform—there is evidence that the benefits of education vary across demographic groups such as race and region.
+
+## The Mechanism
+
+A key challenge in estimating the return to education is that schooling is not randomly assigned. Individuals who pursue more education may differ systematically in motivation, ability, or family background, leading to biased estimates.
+
+To address this, this study follows Card (1995) and uses proximity to a four-year college as an instrumental variable. The intuition is similar to a natural experiment: individuals who grow up closer to a college are more likely to attend, even if they are otherwise similar to those who live farther away. This geographic variation creates a quasi-random assignment of education levels, allowing us to isolate the true causal effect of schooling on wages.
+
+## Visual Evidence
+
+The figure below presents a coefficient (forest) plot of the estimated returns to schooling and their variation across demographic groups.
+
+* The baseline estimate shows the return to schooling for the reference group.
+* Interaction terms capture how the return differs for Black individuals and those from the South.
+* Confidence intervals illustrate statistical uncertainty.
+
+![Forest Plot](notebooks/forest_plot.png)
+
+## Business / Policy Implications
+
+The findings suggest that investing in education yields substantial economic returns, reinforcing the importance of policies that improve access to schooling.
+
+However, the heterogeneous effects indicate that not all individuals benefit equally. This implies that policymakers should complement general education expansion with targeted interventions—such as support programs for disadvantaged groups or region-specific investments—to ensure more equitable outcomes.
+
+From a business perspective, these results highlight the value of education as a driver of productivity, while also emphasizing the importance of considering demographic heterogeneity in workforce development and talent investment strategies.
